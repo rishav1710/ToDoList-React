@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.app {
+  text-align: center;
+  height: auto;
+  width: 25%;
+  background-color: #d6ed17ff;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px -5px rgba(247, 237, 237, 0.87);
+  /* overflow-y: scroll; */
+}
+.app h1 {
+  color: black;
+  letter-spacing: 0.1rem;
+  padding: 6px 0px 2px 0px;
+  margin-bottom: 10px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.fa-plus,
+.fa-trash,
+.fa-edit {
+  background-color: black;
+  color: #d6ed17ff;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: large;
+}
+.fa-plus:hover {
+  transform: translateY(-5px);
+  color: rgb(50, 224, 50);
+}
+.fa-trash:hover {
+  color: rgb(247, 36, 36);
+  transform: translateY(-5px);
+}
+.fa-edit:hover {
+  color: white;
+  transform: translateY(-5px);
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
